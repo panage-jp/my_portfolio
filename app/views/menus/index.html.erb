@@ -1,25 +1,222 @@
-<p id="notice"><%= notice %></p>
+<body>
 
-<h1>Menus</h1>
+  <!-- MAIN IMAGE SECTION -->
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1>Jin Koga</h1>
+          <h2>WEB ENGINEER</h2>
+          <div class="spacer"></div>
+          <i class="fa fa-angle-down"></i>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /headerwrap -->
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <!-- WELCOME SECTION -->
+  <div class="container">
+    <div class="section_title_parent">
+      <hi class="section_title">ABOUT ME</h1>
+    </div>
+    <div class="row mt">
+      <div class="col-lg-6">
 
-  <tbody>
-    <% @menus.each do |menu| %>
-      <tr>
-        <td><%= link_to 'Show', menu %></td>
-        <td><%= link_to 'Edit', edit_menu_path(menu) %></td>
-        <td><%= link_to 'Destroy', menu, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+        <h1>HI, IT'S ME!</h1>
 
-<br>
+        <p>I was born in 1996, and now I'm a college student in Osaka, Japan.
+          I like building awesome web apps.
+          I've created some websites, web scraping programs, and web designs!
+          If you are interested, you can see my projects following this site.</p>
+        <p>
+          Besides createing web apps, I'm also a lecturer of a programing school in Osaka. I'm now teaching how to
+          build
+          web sites, using Ruby On Rails.
+        </p>
+        <p>And if you want to get in touch with me, send a email. I may do something to you!
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h1>MY PERSONAL INTEREST</h1>
+        <p>When I am not coding my next project, or teaching in the school. I enjoy spending my time any of the
+          following </p>
+        <p>・I'm a player of Magic The Gathering;</p>
+        <p>・I love doggs and take thir pictures;</p>
+        <p>・I love watching movies on Netflix, or APV;</p>
+        <p>・And I am studying accounting;</p>
 
-<%= link_to 'New Menu', new_menu_path %>
+      </div>
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /.container -->
+
+
+
+  <!-- SERVICES SECTION -->
+  <div id="services">
+    <div class="container">
+      <div class="section_title_parent section_white skills">
+        <hi class="section_title white">TECHNICAL SKILLS</h1>
+      </div>
+      <div class="row mt">
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-8 ">
+          <p>I've used a wide varaety of languages to build web apps. For web apps I mainly use Ruby and its framework
+            RoR and as its supports I use javascript APIs. Sometimes I use Python for building web scraping programs.
+          </p>
+        </div>
+      </div>
+      <div class="row mt icons">
+        <div class="col-lg-1 centered">
+          <i class="fas fa-gem"></i>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="language">Ruby</h3>
+        </div>
+
+        <div class="col-lg-1 centered">
+          <i class="fab fa-python"></i>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="language">Python</h3>
+
+        </div>
+
+
+        <div class="col-lg-1 centered">
+          <i class="fab fa-js-square"></i>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="language">Java script</h3>
+        </div>
+
+      </div>
+      <!-- row -->
+      <div class="section_title_parent section_white">
+        <hi class="section_title white">MOST FREQUENTLY USED TOOLS</h1>
+      </div>
+      <div class="row mt">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          <h3>FRAMEWORKS AND MARK UP TOOLS</h3>
+          <p>・Ruby On Rails
+            <br>・HTML,CSS
+            <br>・Jquery
+            <br>・Ajax
+            <br>・BOOTSTRAP
+            <p>
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          <h3>ENVIRONMENTS</h3>
+          <p>・AWS(EC2,S3...)
+            <br>・Git
+            <br>・MySQL
+            <br>・Linux
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+  </div>
+  <!-- services section -->
+
+
+  <!-- BLOG POSTS -->
+  <div class="container">
+    <div class="section_title_parent">
+      <hi class="section_title">MY WORKS</h1>
+    </div>
+    <!-- row -->
+
+    <div class="row mt">
+      <div class="col-lg-4">
+        <img class="img-responsive" src="img/portfolio2.png" alt="">
+        <h3><a href="#">My Portfolio Site</a></h3>
+        <p>I used Bootstrap template to build this site. The URl of this template is <br><a
+            href="https://templatemag.com/demo/Link/">https://templatemag.com/demo/Link/</a>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive" src="img/doggycom.jpg" alt="">
+        <h3><a href="#">Doggy.com</a></h3>
+        <p>Doggy.com is a site for dog lovers. This site play a part of community for whom loves doggs.
+          <br>url:<a href="http://www.doggycom.com"> http://www.doggycom.com</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-responsive" src="img/post03.jpg" alt="">
+        <h3><a href="#">Chat Area</a></h3>
+        <p>This app enable us to chat with friends, family, or collegues
+          <br><a href="https://github.com/panage-jp/chat-space">git hub</a>
+        </p>
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+
+
+  <!-- CLIENTS LOGOS -->
+
+
+  <div class="container">
+    <!-- container -->
+
+
+    <!-- SOCIAL FOOTER --->
+    <section id="contact"></section>
+    <div id="sf">
+      <div class="container">
+        <div class="section_title_parent">
+          <hi class="section_title">CONTACT</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 dg">
+            <h4 class="ml">Git Hub</h4>
+            <p class="centered"><i class="fab fa-github"></i></p>
+            <p class="ml">> Become A Friend</p>
+          </div>
+          <div class="col-lg-4 lg">
+            <h4 class="ml">TWITTER</h4>
+            <p class="centered"><i class="fab fa-twitter"></i></p>
+            <p class="ml">> Follow Us</p>
+          </div>
+          <div class="col-lg-4 dg">
+            <h4 class="ml">Email</h4>
+            <p class="centered"><i class="fas fa-envelope"></i></p>
+            <p class="ml">> Add Us To Your Circle</p>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!-- Social Footer -->
+
+
+    <div id="copyrights">
+      <div class="container">
+        <p>
+          &copy; Copyrights <strong>Link</strong>. All Rights Reserved
+        </p>
+        <div class="credits">
+          <!--
+          You are NOT allowed to delete the credit link to TemplateMag with free version.
+          You can delete the credit link only if you bought the pro version.
+          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/link-bootstrap-agency-template/
+          Licensing information: https://templatemag.com/license/
+        -->
+          Created with Link template by <a href="https://templatemag.com/">TemplateMag</a>
+        </div>
+      </div>
+    </div>
+
+
+</body>
